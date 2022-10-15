@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding:0 4.8em;
+    background-color: #ebebeb;
+}
+
+
+/*////////////////////////////////////////// SESSÃO NAVBAR */
+#form-header-search {
+    flex-direction: column;
+    position: relative;
+    left: 209px;
+}
+
+.navbar-brand {
+    position: relative;
+    bottom: 20px;
+    left: 90px;
+}
+
+#input-search {
+    width: 35vw;
+}
+
+.navbar-nav a {
+    padding: 0;
+    padding-top: 1em;
+    font-size: small;
+}
+
+.patrocinio-header {
+    position: relative;
+    left: 320px;
+}
+
+.patrocinio-header p {
+    margin: 0;
+}
+.patrocinio-header ul {
+    position: relative;
+    top: 8px;
+}
+
+/*//////////////////////////////////////////// SESSÃO SLIDE SITE  */
+
+.carousel-inner {
+    height: 57vh;
+}
+
+
+
+/*///////////////////////////////////////// SESSAO PLANOS PAGAMENTOS */
+
+.plans-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 70px;
+    background-color: white;
+}

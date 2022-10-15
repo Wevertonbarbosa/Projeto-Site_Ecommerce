@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
-main {
-    padding:0 4.8em;
+.body {
     background-color: #ebebeb;
+    width: 100%;
+}
+
+
+main {
+    padding: 0 4.8em;
+
 }
 
 
@@ -41,6 +47,7 @@ main {
 .patrocinio-header p {
     margin: 0;
 }
+
 .patrocinio-header ul {
     position: relative;
     top: 8px;
@@ -50,6 +57,7 @@ main {
 
 .carousel-inner {
     height: 57vh;
+    margin-bottom: 2em;
 }
 
 
@@ -58,8 +66,156 @@ main {
 
 .plans-container {
     display: flex;
-    align-items: center;
     justify-content: center;
-    column-gap: 70px;
+    padding: .2em;
     background-color: white;
+    box-shadow: 1px 1px 1px 1px #999;
+    border-radius: 4px;
+}
+
+.plans1 {
+    border-left: 3px solid #3483fa;
+}
+
+.plans1 p {
+    color: #999;
+    font-size: 14px;
+}
+
+.plans1,
+.plans2,
+.plans3,
+.plans4 {
+    width: 28%;
+    padding: .6em;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    border-right: 1px solid gainsboro;
+}
+
+.plans3 {
+    display: grid;
+    grid-template-columns: 70px 80px;
+    align-items: flex-start;
+    justify-items: center;
+
+}
+
+.plans2 {
+    display: grid;
+    grid-template-columns: 58px 247px;
+    align-items: flex-start;
+    justify-items: center;
+}
+
+.plans2 img {
+    width: 87%;
+    position: relative;
+    bottom: 8px;
+}
+
+.plans2 a {
+    position: relative;
+    left: 90px;
+    width: 92px;
+    text-decoration: none;
+    bottom: 20px;
+    font-size: 15px;
+}
+
+.plans3 img {
+    width: 71%;
+    position: relative;
+    bottom: 8px;
+}
+
+.plans3 a {
+    position: relative;
+    left: 82px;
+    width: 78px;
+    font-size: 15px;
+    bottom: 20px;
+    text-decoration: none;
+}
+
+.plans4 {
+    display: grid;
+    grid-template-columns: 43px 45px;
+    align-items: flex-start;
+    justify-items: center;
+}
+
+
+.plans4 img {
+    width: 80%;
+    position: relative;
+    bottom: 2px;
+}
+
+
+.plans4 a {
+    position: relative;
+    left: 73px;
+    text-decoration: none;
+    bottom: 15px;
+    width: 83px;
+    font-size: 15px;
+}
+
+/*////////////////////////////////////////// SESSÃO OFERTAS DO DIA  */
+
+.sales-day-title {
+    margin-top: 2.8em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.sales-day-title h2 {
+    color: #666;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 0;
+    font-size: 29px;
+}
+
+.sales-day-title a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    padding-inline-start: 1em;
+}
+
+/*///////////////////////////////////// SESSÃO ASSSINANTES  */
+
+#container-geral-assinantes {
+    box-shadow: 2px 2px 2px #999;
+    margin-bottom: 2em;
+}
+
+#header-assinantes {
+    padding: .6em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background: linear-gradient(90deg,#084298 55%,#0c1a51);
+    font-family: 'Poppins', sans-serif;
+}
+
+#header-assinantes h3 {
+    padding: 1em;
+    position: relative;
+    top: 5px;
+}
+
+#header-assinantes img {
+    width: 150px;
+}
+
+#contente-assinante {
+    border-bottom: 1px solid gainsboro;
+}
+
+.btn-assinantes {
+    font-family: 'Poppins', sans-serif;    
+    padding: 1.5em;
 }

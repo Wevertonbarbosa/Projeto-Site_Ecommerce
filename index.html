@@ -23,7 +23,7 @@
 <body class="body">
     <!-- Sessão NavBar -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
@@ -31,18 +31,19 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a class="navbar-brand" href="#">Hidden brand</a>
+                    <a class="navbar-brand" href="#"><img src="https://cdn-icons-png.flaticon.com/512/3666/3666231.png"
+                            alt="Logo-Well_Pague"></a>
 
                     <form class="d-flex" id="form-header-search" role="search">
 
-                        <div class="input-group mt-1">
-                            <div class="input-group-text">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="input-search"
+                                aria-label="Text input with checkbox" placeholder="Buscas de produtos...">
+                            <div class="input-group-text" id="search-content-icon">
                                 <lord-icon src="https://cdn.lordicon.com/xfftupfv.json" trigger="hover"
                                     style="width:20px;height:20px">
                                 </lord-icon>
                             </div>
-                            <input type="text" class="form-control" id="input-search"
-                                aria-label="Text input with checkbox">
                         </div>
 
                         <ul class="navbar-nav me-auto  mb-lg-0">
@@ -171,19 +172,442 @@
                     <h3>Assine os planos</h3>
                     <img src="https://c.navfile.com/images/the-walt-disney-company/disney-plus-logo.png" alt="marca">
                 </div>
-                <div class="card-body" id="contente-assinante">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                <div class="card-body" id="content-assinante">
+                    <div>
+                        <img id="img-disney"
+                            src="https://logodownload.org/wp-content/uploads/2020/11/disney-plus-logo-0.png"
+                            alt="disney">
+                        <p>Assine já Disney Plus</p>
+                    </div>
+                    <div>
+                        <img id="img-amazon" src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo.png"
+                            alt="Amazon">
+                        <p>Assine já Amazon</p>
+                    </div>
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/512/7032/7032218.png" alt="caminhão">
+                        <p>Entregas para você já...</p>
+                    </div>
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/512/4573/4573567.png" alt="Mercado Pago">
+                        <p>Mercado Pago</p>
+                    </div>
                 </div>
+
                 <div class="btn-assinantes">
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Assine</a>
                 </div>
             </div>
 
         </section>
 
+        <!-- Sessão Benefício -->
+        <section>
+            <div class="sales-day-title">
+                <h2>Benefício do Well Pague</h2>
+                <a href="#">Ver todas</a>
+            </div>
 
+            <div>
+                <h1> Montagem do slide de vendas </h1>
+            </div>
+        </section>
+
+        <!-- Sessão TVs -->
+        <article class="artg-main">
+            <div class="card mb-3" style="max-width: 100%; height: 40vh;">
+                <div class="row g-0">
+                    <div class="col-md-7">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.QKV7pDXLCz6IRHGTVOx4VQHaE8&pid=Api&P=0"
+                            class="img-fluid rounded-start" style="height: 40vh; width: 100%" alt="Patrocinio">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sessão Promoção -->
+        <div class="container-promo">
+
+            <div class="sales-day-title">
+                <h2>Confira</h2>
+            </div>
+
+            <div class="subcontainer-promo">
+                <div class="content-firt-img">
+                    <div class="one-img-promo">
+                        <p>Promoções</p>
+                        <h4>Ofertas baratas do dia</h4>
+                        <button>Ver mais</button>
+                    </div>
+                    <div class="two-img-promo">
+                        <img src="https://i.pinimg.com/736x/4d/ee/0c/4dee0c29188ce8500fd22638bb4cb638.jpg"
+                            alt="Promocoes">
+                    </div>
+                </div>
+
+                <div class="content-two-img">
+                    <div class="tree-img-promo">
+                        <p>Melhores promoções</p>
+                        <h4>Não Perca as oportunidades de se cadastra</h4>
+                        <button>Ver mais</button>
+                    </div>
+
+                    <div class="fourth-img-promo">
+                        <img src="https://finanzero.com.br/images/uploads/2020/11/como-vender-no-mercado-livre-passo-a-passo.jpg"
+                            alt="promomcao2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sessão Melhores Lojas-->
+
+        <section class="melhores-lojas">
+            <div class="sales-day-title">
+                <h2>Melhoras lojas</h2>
+                <a href="#">Ver Lojas</a>
+            </div>
+
+            <div class="lojas-sales">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://finanzero.com.br/images/uploads/2020/11/como-vender-no-mercado-livre-passo-a-passo.jpg"
+                        class="card-img-top" alt="lojas-mercados">
+                    <div class="logo-lojas">
+                        <img src="https://finanzero.com.br/images/uploads/2020/11/como-vender-no-mercado-livre-passo-a-passo.jpg"
+                            alt="logos-lojas">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://finanzero.com.br/images/uploads/2020/11/como-vender-no-mercado-livre-passo-a-passo.jpg"
+                        class="card-img-top" alt="lojas-mercados">
+                    <div class="logo-lojas">
+                        <img src="https://finanzero.com.br/images/uploads/2020/11/como-vender-no-mercado-livre-passo-a-passo.jpg"
+                            alt="logos-lojas">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://finanzero.com.br/images/uploads/2020/11/como-vender-no-mercado-livre-passo-a-passo.jpg"
+                        class="card-img-top" alt="lojas-mercados">
+                    <div class="logo-lojas">
+                        <img src="https://finanzero.com.br/images/uploads/2020/11/como-vender-no-mercado-livre-passo-a-passo.jpg"
+                            alt="logos-lojas">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="https://finanzero.com.br/images/uploads/2020/11/como-vender-no-mercado-livre-passo-a-passo.jpg"
+                        class="card-img-top" alt="lojas-mercados">
+                    <div class="logo-lojas">
+                        <img src="https://finanzero.com.br/images/uploads/2020/11/como-vender-no-mercado-livre-passo-a-passo.jpg"
+                            alt="logos-lojas">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Sessão Promoções 2 -->
+
+        <div class="container-promo">
+
+            <div class="sales-day-title">
+                <h2>Você pode se interessar</h2>
+            </div>
+
+            <div class="subcontainer-promo">
+                <div class="content-firt-img">
+                    <div class="one-img-promo">
+                        <p>Promoções</p>
+                        <h4>Ofertas baratas do dia</h4>
+                        <button>Ver mais</button>
+                    </div>
+                    <div class="two-img-promo">
+                        <img src="https://i.pinimg.com/736x/4d/ee/0c/4dee0c29188ce8500fd22638bb4cb638.jpg"
+                            alt="Promocoes">
+                    </div>
+                </div>
+
+                <div class="content-two-img">
+                    <div class="tree-img-promo">
+                        <p>Melhores promoções</p>
+                        <h4>Não Perca as oportunidades de se cadastra</h4>
+                        <button>Ver mais</button>
+                    </div>
+
+                    <div class="fourth-img-promo">
+                        <img src="https://finanzero.com.br/images/uploads/2020/11/como-vender-no-mercado-livre-passo-a-passo.jpg"
+                            alt="promomcao2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sessão Produtos imagens -->
+        <section class="sect-produtos-img">
+            <div class="container-produtos">
+
+                <div class="sales-day-title">
+                    <h2>Coleções</h2>
+                </div>
+
+                <div class="content-produtos">
+                    <div class="card" id="container-card-produto">
+                        <img id="img-produto-card"
+                            src="https://www.eletronicacastro.com.br/34948-thickbox_default/caixa-de-som-21-subwoofer-bluetooth-amplificada-u.jpg"
+                            class="card-img-top" alt="Imagem-produto">
+                        <div class="card-body">
+                            <p>Venha conferir</p>
+                            <h3 class="card-title">Melhores Sons</h3>
+                        </div>
+                    </div>
+
+                    <div class="content-img-produtos">
+                        <div class="img-first-produto">
+                            <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                                alt="img-produto">
+                        </div>
+                        <div class="img-first-produto">
+                            <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                                alt="img-produto">
+                        </div>
+                        <div class="img-first-produto">
+                            <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                                alt="img-produto">
+                        </div>
+                        <div class="img-first-produto">
+                            <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                                alt="img-produto">
+                        </div>
+                        <div class="img-first-produto">
+                            <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                                alt="img-produto">
+                        </div>
+                        <div class="img-first-produto">
+                            <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                                alt="img-produto">
+                        </div>
+                        <div class="img-first-produto">
+                            <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                                alt="img-produto">
+                        </div>
+                        <div class="img-first-produto">
+                            <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                                alt="img-produto">
+                        </div>
+                    </div>
+        </section>
+
+        <!-- Sessão Categorias populares -->
+        <section class="sect-categorias">
+            <div class="container-categorias">
+                <div class="sales-day-title">
+                    <h2>Coleções</h2>
+                </div>
+
+                <div class="content-categorias">
+                    <div class="img-opcoes">
+                        <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                            alt="img-produto">
+                    </div>
+                    <div class="img-opcoes">
+                        <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                            alt="img-produto">
+                    </div>
+                    <div class="img-opcoes">
+                        <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                            alt="img-produto">
+                    </div>
+                    <div class="img-opcoes">
+                        <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                            alt="img-produto">
+                    </div>
+                    <div class="img-opcoes">
+                        <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                            alt="img-produto">
+                    </div>
+                    <div class="img-opcoes">
+                        <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                            alt="img-produto">
+                    </div>
+                    <div class="img-opcoes">
+                        <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                            alt="img-produto">
+                    </div>
+                    <div class="img-opcoes">
+                        <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                            alt="img-produto">
+                    </div>
+                    <div class="img-opcoes">
+                        <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                            alt="img-produto">
+                    </div>
+                    <div class="img-opcoes">
+                        <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                            alt="img-produto">
+                    </div>
+                    <div class="img-opcoes">
+                        <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                            alt="img-produto">
+                    </div>
+                    <div class="img-opcoes">
+                        <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                            alt="img-produto">
+                    </div>
+                    <div class="img-opcoes">
+                        <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                            alt="img-produto">
+                    </div>
+                    <div class="img-opcoes">
+                        <img src="http://www.blogolandialtda.com.br/img-upload/images/aparelhos-eletronicos.jpg"
+                            alt="img-produto">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sessão ofertas finais -->
+
+        <section class="sect-ofertas">
+            <div class="container-oferta-final">
+                <div class="icon-serve">
+                    <figure><img src="https://cdn-icons-png.flaticon.com/512/271/271035.png" alt="icones-finais">
+                    </figure>
+                    <p>Titulo</p>
+                    <p>about us</p>
+                    <a href="#">Como pagar no Well Pague</a>
+                </div>
+
+                <div class="icon-serve">
+                    <figure><img src="https://cdn-icons-png.flaticon.com/512/7410/7410535.png" alt="icones-finais">
+                    </figure>
+                    <p>Titulo</p>
+                    <p>about us</p>
+                    <a href="#">Como pagar no Well Pague</a>
+                </div>
+
+                <div class="icon-serve">
+                    <figure><img src="https://cdn-icons-png.flaticon.com/512/4403/4403096.png" alt="icones-finais">
+                    </figure>
+                    <p>Titulo</p>
+                    <p>about us</p>
+                    <a href="#">Como pagar no Well Pague</a>
+                </div>
+
+            </div>
+
+            <div class="footer-container">
+                <details>
+
+                    <summary>Mais informações</summary>
+                    <div class="container-geral-footer">
+
+                        <div class="list-footer">
+                            <h5>Sobre</h5>
+                            <ul>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                            </ul>
+                        </div>
+
+                        <div class="list-footer">
+                            <h5>Sobre</h5>
+                            <ul>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                            </ul>
+                        </div>
+
+                        <div class="list-footer">
+                            <h5>Sobre</h5>
+                            <ul>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                            </ul>
+                        </div>
+
+                        <div class="list-footer">
+                            <h5>Sobre</h5>
+                            <ul>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                            </ul>
+                        </div>
+
+                        <div class="list-footer">
+                            <h5>Sobre</h5>
+                            <ul>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                                <li>Testes para inicio</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+        </section>
     </main>
+
+    <footer>
+
+        <div class="footer-exterior">
+            <div class="text-footer-ext">
+                <ul>
+                    <a href="#">Trabalhando com o Progresso</a>
+                    <a href="#">Trabalhando com o Progresso</a>
+                    <a href="#">Trabalhando com o Progresso</a>
+                    <a href="#">Trabalhando com o Progresso</a>
+                    <a href="#">Trabalhando com o Progresso</a>
+                    <a href="#">Trabalhando com o Progresso</a>
+                </ul>
+                <p>Trabalhando com sucesso parar ter o melhor</p>
+                <p>Mais uma vez sempre crescendo e melhorando</p>
+
+            </div>
+        </div>
+    </footer>
+
 
     <!-- Link Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

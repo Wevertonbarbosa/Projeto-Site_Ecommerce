@@ -11,12 +11,12 @@
 
 
 main {
-    padding: 0 4.8em; 
+    padding: 0 4.8em;
 
 }
 
 header {
-    background-color: #3483fa;
+    background-color: black;
 }
 
 
@@ -31,8 +31,8 @@ header {
 
 .navbar-brand {
     position: relative;
-    bottom: 20px;
-    left: 90px;
+    bottom: 26px;
+    left: 60px;
     margin: 0 !important;
     padding: 0 !important;
     width: 82px;
@@ -40,24 +40,40 @@ header {
 }
 
 .navbar-brand img {
-    width: 70%;
-    height: 50px;
+    width: 170px;
+    height: 80px;
+}
+
+.navbar-nav {
+    color: white;
+}
+
+.container-fluid {
+    padding: .4em;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    font-weight: 700;
 }
 
 #input-search {
     border-radius: inherit;
     width: 40vw;
     font-family: inherit;
-    box-shadow: 1px 1px 1px 1px gainsboro;
+    box-shadow: 1px 1px 1px 1px #ffffff61;
 }
 
 #search-content-icon {
     border-left: 1px solid gainsboro !important;
-    box-shadow: 1px 1px 1px 1px gainsboro;
+    box-shadow: 1px 1px 1px 1px #ffffff61;
     border-radius: inherit;
     background-color: white;
     cursor: pointer;
-} 
+}
 
 .navbar-nav a {
     padding: 0;
@@ -114,7 +130,7 @@ header {
 .plans4 {
     width: 28%;
     padding: .6em;
-    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
     border-right: 1px solid gainsboro;
 }
 
@@ -198,7 +214,7 @@ header {
 
 .sales-day-title h2 {
     color: #666;
-    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
     font-weight: 0;
     font-size: 29px;
 }
@@ -206,8 +222,41 @@ header {
 .sales-day-title a {
     text-decoration: none;
     font-size: 15px;
-    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
     padding-inline-start: 1em;
+}
+
+.slide-main {
+    position: relative;
+    height: 100%;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5em;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-wrapper {
+    width: 30% !important;
+}
+
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
 }
 
 /*///////////////////////////////////// SESSÃO TVS */
@@ -226,8 +275,8 @@ header {
     color: white;
     display: flex;
     align-items: center;
-    justify-content:space-between;
-    background: linear-gradient(90deg,#084298 55%,#0c1a51);
+    justify-content: space-between;
+    background: linear-gradient(90deg, #084298 55%, #0c1a51);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -274,9 +323,74 @@ header {
 }
 
 .btn-assinantes {
-    font-family: 'Poppins', sans-serif;    
+    font-family: 'Poppins', sans-serif;
     padding: 1.5em;
 }
+
+
+
+/*/////////////////////////////////////////////// SESSAO BENEFICIOS */
+.main-beneficios-slide {
+    margin-bottom: 4em;
+}
+
+.container-geral-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.subContainer-slide {
+    max-width: 90vw;
+}
+
+.container-slide {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.container-slide .carousel {
+    display: flex;
+    scroll-behavior: smooth;
+}
+
+.container-slide .carousel .item {
+    width: 320px;
+}
+
+.container-slide .carousel .item .image img:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+
+.container-slide .carousel .item .image img {
+    width: 298px;
+    height: 380px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.container-slide::-webkit-scrollbar {
+    display: none;
+}
+
+
+.item {
+    animation: slide 100s steps(2800) alternate infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-238vw);
+    }
+
+}
+
+
 
 
 /*/////////////////////////////////////// SESSÃO PROMOÇOES DO DIA */
@@ -284,7 +398,7 @@ header {
     margin-bottom: 4em;
 }
 
-.subcontainer-promo{
+.subcontainer-promo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -320,19 +434,19 @@ header {
     margin-bottom: 4em;
 }
 
-.lojas-sales{
+.lojas-sales {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 10px;
-    
+
 }
 
 .lojas-sales img {
     height: 95px;
 }
 
-.logo-lojas{
+.logo-lojas {
     position: relative;
     left: 105px;
     bottom: 37px;
@@ -416,7 +530,7 @@ header {
     background-color: white;
 }
 
-.container-oferta-final{
+.container-oferta-final {
     display: flex;
     column-gap: 50px;
     align-items: center;
@@ -483,4 +597,3 @@ header {
     text-decoration: none;
     font-size: 14px;
 }
-

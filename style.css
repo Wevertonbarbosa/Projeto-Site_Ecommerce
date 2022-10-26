@@ -32,7 +32,7 @@ header {
 
 .navbar-brand {
     position: relative;
-    bottom: 26px;
+    bottom: 22px;
     left: 60px;
     margin: 0 !important;
     padding: 0 !important;
@@ -346,6 +346,11 @@ header {
 .btn-assinantes {
     font-family: 'Poppins', sans-serif;
     padding: 1.5em;
+}
+
+.btn-assinantes a {
+    padding: .8em;
+    width: 15%;
 }
 
 

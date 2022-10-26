@@ -17,6 +17,7 @@ main {
 
 header {
     background-color: black;
+    border-bottom: 1px solid #ffffff38;
 }
 
 
@@ -26,7 +27,7 @@ header {
 #form-header-search {
     flex-direction: column;
     position: relative;
-    left: 186px;
+    left: 216px;
 }
 
 .navbar-brand {
@@ -40,8 +41,7 @@ header {
 }
 
 .navbar-brand img {
-    width: 170px;
-    height: 80px;
+    width: 200px;
 }
 
 .navbar-nav {
@@ -56,9 +56,10 @@ header {
     color: white !important;
 }
 
-.nav-link:hover {
-    font-weight: 700;
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: darkgoldenrod !important;
 }
+
 
 #input-search {
     border-radius: inherit;
@@ -79,20 +80,40 @@ header {
     padding: 0;
     padding-top: 1em;
     font-size: small;
+    opacity: .8;
 }
 
 .patrocinio-header {
     position: relative;
-    left: 320px;
+    bottom: 14px;
+    left: 280px;
+    display: flex;
+    flex-direction: column;
 }
 
-.patrocinio-header p {
+
+.patrocinio-header img {
+    width: 200px;
+}
+
+.list-patrocionio-header {
+    display: flex;
+    list-style: none;
+    font-size: 13px;
+    color: darkgray;
+    padding: 0;
     margin: 0;
+    position: relative;
+    height: 7px;
+    top: 23px;
+    left: 12px;
+    align-items: center;
+    cursor: pointer;
 }
 
-.patrocinio-header ul {
-    position: relative;
-    top: 8px;
+.list-patrocionio-header li {
+    margin: 0 .8em;
+    font-weight: 500;
 }
 
 /*//////////////////////////////////////////// SESSÃO SLIDE SITE  */

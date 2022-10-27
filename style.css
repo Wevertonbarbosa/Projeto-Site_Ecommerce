@@ -329,18 +329,8 @@ header {
     padding: 20px;
 }
 
-#content-assinante img {
-    width: 50px;
-}
-
-#img-disney {
-    position: relative;
-    bottom: 14px;
-    width: 100px !important;
-}
-
-#img-amazon {
-    width: 100px !important;
+#content-assinante p {
+    margin: 0;
 }
 
 .btn-assinantes {

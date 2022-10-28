@@ -22,8 +22,6 @@ header {
 
 
 /*////////////////////////////////////////// SESSÃO NAVBAR */
-
-
 #form-header-search {
     flex-direction: column;
     position: relative;
@@ -287,7 +285,7 @@ header {
 
 
 #container-geral-assinantes {
-    box-shadow: 2px 2px 2px #999;
+    box-shadow: 2px 2px 10px #999;
     margin-bottom: 2em;
 }
 
@@ -377,7 +375,7 @@ header {
 }
 
 .container-slide .carousel .item .image img:hover {
-    border: 1px solid white;
+    border: 1px solid #0a58ca;
     cursor: pointer;
 }
 
@@ -406,6 +404,11 @@ header {
 
 }
 
+/*///////////////////////////////////////////// SESSÃO TVS */
+.artg-main:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 17px rgba(0, 0, 0, 0.479);
+}
 
 
 
@@ -422,27 +425,63 @@ header {
 }
 
 .content-firt-img {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
+    border-radius: 5px;
     background-color: white;
     min-width: 590px;
+    box-shadow: 2px 2px 10px #999;
+}
+
+.content-firt-img:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 17px rgba(0, 0, 0, 0.479);
+}
+
+
+.one-img-promo {
+    width: 300px;
+    padding: 2em;
+}
+
+.one-img-promo p {
+    margin: .2em;
 }
 
 .two-img-promo img {
     width: 290px;
     height: 240px;
+    border-radius: 5px;
 }
 
 .content-two-img {
+    align-items: flex-start;
     display: flex;
+    border-radius: 5px;
     background-color: white;
     align-items: center;
     min-width: 590px;
+    box-shadow: 2px 2px 10px #999;
 }
+
+.content-two-img:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 17px rgba(0, 0, 0, 0.479);
+}
+
+.tree-img-promo {
+    padding: 2em;
+}
+
+.tree-img-promo p {
+    margin-bottom: .3em;
+}
+
 
 .fourth-img-promo img {
     height: 240px;
     width: 290px;
+    border-radius: 5px;
 }
 
 /*///////////////////////////////// SESSÃO LOJAS  MERCADO */
@@ -455,22 +494,31 @@ header {
     align-items: center;
     justify-content: center;
     column-gap: 10px;
-
 }
 
-.lojas-sales img {
-    height: 95px;
+#lojas-cards {
+    box-shadow: 1px 1px 10px #999;
 }
+
+#lojas-cards:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.479);
+}
+
 
 .logo-lojas {
     position: relative;
     left: 105px;
-    bottom: 37px;
+    bottom: 17px;
     width: 80px;
+    border-radius: 10px;
+    box-shadow: -3px 2px 2px #0000004a;
 }
 
 .logo-lojas img {
+    height: 80px;
     width: 80px;
+    border-radius: 14px;
 }
 
 /*///////////////////////////////////// SESSÃO PRODUTOS A VENDAS  */
@@ -498,17 +546,29 @@ header {
     width: 400px;
 }
 
+#container-card-produto:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 17px rgba(0, 0, 0, 0.479);
+}
+
 #img-produto-card {
-    width: 400px;
+    width: 390px;
     height: 250px;
     object-fit: contain;
 }
 
 .img-first-produto {
     width: 180px;
-    height: 180px;
+    border-radius: 10px;
+    height: 174px;
     cursor: pointer;
 }
+
+.img-first-produto:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 17px rgba(0, 0, 0, 0.479);
+}
+
 
 .img-first-produto img {
     width: 100%;
@@ -531,19 +591,37 @@ header {
 
 .img-opcoes {
     width: 170px;
+    background-color: white;
     height: 170px;
-    border: 1px solid #999;
+    border: 1px solid #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-opcoes:hover {
+    cursor: pointer;
+    background-color: #3483fa;
+    color: white;
 }
 
 .img-opcoes img {
-    width: 170px;
-    height: 170px;
-    border: 1px solid #999;
+    width: 50px;
+    height: 50px;
+}
+
+.img-opcoes p {
+    padding-top: 2em;
 }
 
 /*///////////////////////////////////// SESSAO OFERTAS FINAL  */
 .sect-ofertas {
     background-color: white;
+    margin-bottom: 2em;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px #999;
+
 }
 
 .container-oferta-final {
@@ -557,11 +635,12 @@ header {
     background-color: white;
     display: flex;
     width: 396px;
+    border-radius: 80px;
     padding: 1em;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-left: 1px solid gainsboro;
+    border-left: 1px solid #adb5bd;
 }
 
 
@@ -570,46 +649,38 @@ header {
 }
 
 /*///////////////////////////////////// SESSAO FOOTER */
-.footer-container {
-    display: flex;
-    background-color: white;
-    justify-content: center;
-}
-
-.footer-container details {
-    text-align: center;
+footer {
+    background-color: #000;
 }
 
 .container-geral-footer {
+    padding: 2em;
+}
+
+.container-geral-footer h6 {
+    color: #adb5bd;
+    text-indent: 40px;
+}
+
+.subcontainer-info-footer {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
+    align-items: flex-start;
+    justify-content:space-around;
 }
 
-.footer-exterior {
-    border-top: 1px solid gainsboro;
-    background-color: white;
-}
-
-.text-footer-ext ul {
-    display: flex;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    column-gap: 25px
-}
-
-.text-footer-ext p {
-    margin: 0;
-    color: #999;
-    font-size: 13px;
-    text-indent: 60px;
-}
-
-
-.text-footer-ext ul a {
-    text-decoration: none;
+.subcontainer-info-footer p {
+    color: #adb5bd;
     font-size: 14px;
 }
+
+#logo-footer {
+    width: 70px;
+    height: 70px;
+}
+
+.imgs-redes-sociais img {
+    width: 30px;
+    cursor: pointer;
+    height: 30px;
+}
+

@@ -684,3 +684,7 @@ footer {
     height: 30px;
 }
 
+.imgs-redes-sociais img:hover {
+    opacity: .6;
+}
+
